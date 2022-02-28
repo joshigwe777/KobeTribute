@@ -1,0 +1,22 @@
+
+GET /seasons HTTP/1.1
+X-Rapidapi-Host: api-nba-v1.p.rapidapi.com
+X-Rapidapi-Key: 8878829cabmshdd811a9dd7f80bcp151623jsn031673c60a5e
+Host: api-nba-v1.p.rapidapi.com
+
+###
+
+GET /games?live=all HTTP/1.1
+X-Rapidapi-Host: api-nba-v1.p.rapidapi.com
+X-Rapidapi-Key: 8878829cabmshdd811a9dd7f80bcp151623jsn031673c60a5e
+Host: api-nba-v1.p.rapidapi.com
+
+###
+
+GET https://stats.nba.com/stats/alltimeleadersgrids?LeagueID=00&PerMode=Totals&SeasonType=Regular+Season&TopX=10 HTTP/1.1
+
+###
+
+GET https://stats.nba.com/stats/drafthistory?LeagueID:00 HTTP/1.1
+
+###
